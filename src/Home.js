@@ -29,7 +29,7 @@ const Home = () => {
         }}>Click me again</button>
     <div className="blog">
         {
-         <BlogPreview blogs={blogs} />
+         <BlogPreview blogs={blogs} title="All blogs!" />
         }
         </div>
 
